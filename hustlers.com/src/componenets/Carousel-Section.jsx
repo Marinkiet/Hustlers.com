@@ -8,6 +8,7 @@ function Section({title,backgroundImg}) {
            <ItemText>
               <h2>{title}</h2> 
            </ItemText>
+           
        </Wrap>
     )
 }
@@ -19,7 +20,7 @@ width:100vw;
 height:50vh;
 background-repeat:no-repeat;
 display:flex;
-border: 1px solid blue;
+border: 1px solid darkgrey;
 background-size:cover;
 flex-direction:column;
 background-image:${props=>`url("/Images/${props.bgImage}")`};

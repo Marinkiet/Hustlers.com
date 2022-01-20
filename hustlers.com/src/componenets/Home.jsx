@@ -8,8 +8,8 @@ function Home() {
            
            <TopContainer>
              
-             <input className="searchbar" type="text" placeholder="Search"></input>
-             <input className="searchbar" type="text" placeholder="Loaction..."></input>
+             <input className="searchbar" type="search" placeholder="Search"></input>
+             <input className="searchbar" type="search" placeholder="Loaction..."></input>
              <FSRButton>
                  <h5>Showing results within 10km radius.</h5>
                 <button>FILTER V </button>
@@ -20,33 +20,35 @@ function Home() {
         
               <Section
                 title = "Popular"
-                backgroundImg="model-s4.jpg"
+                backgroundImg="h.gif"
                />
 
                <Section
                 title = "Products"
-                backgroundImg="modely (17).jpg"
+                backgroundImg="hc.gif"
                 />
 
                 <Section
                  title = "Services"
-                 backgroundImg="model3 (3).jpg"
+                 backgroundImg="ch.gif"
                 />
 
                 <Section
                 title = "Events"
-                backgroundImg="modelx_v2 (1).jpg"
+                backgroundImg="hc.gif"
             />
               
               <Section
                 title = "Hustlers"
-                backgroundImg="solar_panels (5).jpg"
+                backgroundImg="ch.gif"
             />
              
              <div className="footer">
                 <a href="Hustlers@2022.js">Hustlers.com @ 2022  </a>
                 <a href="Privacy&Legal.js">Privacy & Legal  </a>
-                
+                <a href="Pricing.js">Pricing </a>
+                <a href="Advertising.js">Advertising  </a>
+
             </div>
         </Container>
        

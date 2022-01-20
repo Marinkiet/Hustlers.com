@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 .footer{
-    margin-top: 1rem;
+    
     padding: 1rem;
     background-color: white;
     position: relative;
@@ -19,9 +19,8 @@ body{
     left: 0;
     clear: both;
     width: 100vw;
+    margin-left: 2px;
     text-decoration: none;
-
-   
   }
   .searchbar{
       border-bottom-left-radius: 5px;
