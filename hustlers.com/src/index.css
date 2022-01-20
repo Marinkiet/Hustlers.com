@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family:  Geneva, Verdana, sans-serif;
+    color: #393c39;
+    font-weight:300;
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+    width:100%;
+    overflow-x: hidden;
+}
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    width: 100vw;
+    text-decoration: none;
+
+   
+  }
