@@ -7,11 +7,17 @@ function Home() {
         <Container>
            
            <TopContainer>
-        <div>
-             <center><h4>Search</h4></center>
+             
              <input className="searchbar" type="text" placeholder="Search"></input>
-        </div>
+             <input className="searchbar" type="text" placeholder="Loaction..."></input>
+             <FSRButton>
+                 <h5>Showing results within 10km radius.</h5>
+                <button>FILTER V </button>
+                <button>SORT V </button>
+                <button>RADIUS + - </button>
+             </FSRButton>
         </TopContainer>
+        
               <Section
                 title = "Popular"
                 backgroundImg="model-s4.jpg"
@@ -63,9 +69,19 @@ const div = styled.div`
 const TopContainer = styled.div`
 padding:20px;
 margin-top:50px;
-background-color:lightgrey;
+background-color:#E2E2E2;
 position:relative;
 width:100vw;
-opacity:0.65;
+opacity:0.85;
 
+`
+const FSRButton = styled.div`
+margin-top:10px;
+margin-left:35%;
+margin-right:42px;
+justify-content:space-between; 
+display:flex;
+padding:5px;
+flex-direction:row;
+border-style:none;
 `

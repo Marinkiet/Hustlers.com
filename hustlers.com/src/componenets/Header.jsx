@@ -40,9 +40,8 @@ a{
     font-weight:300;
     margin-right:10px;
     text-decoration:none;
-    font-size:14px;
+    font-size:15px;
     font-family:  Geneva, Verdana, sans-serif;
-
 }
 
 `
