@@ -8,7 +8,8 @@ function Header(){
     return(
         <Container>
          <a href="#"><img src="/Images/logo.png"></img></a>  
-    
+         <a href="AboutUs.js">About Us</a>
+         <a href="Contact.js">Contact</a>
             <Menu>
             {categories && categories.map((category,index) =>(
             <a key={index} href="#">{category}</a>))}
@@ -35,6 +36,14 @@ padding: 0 20px;
 top:0;
 left:0;
 right:0;
+a{
+    font-weight:300;
+    margin-right:10px;
+    text-decoration:none;
+    font-size:14px;
+    font-family:  Geneva, Verdana, sans-serif;
+
+}
 
 `
 const RightMenu=styled.div`
@@ -42,7 +51,7 @@ display:flex;
 align-items:center;
 a{
     font-weight:300;
-    margin-right:30px;
+    margin-right:10px;
     text-decoration:none;
     font-size:14px;
     font-family:  Geneva, Verdana, sans-serif;
